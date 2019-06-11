@@ -14,8 +14,7 @@ class Main3Activity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main3)
         recycler.layoutManager = LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false)
-        recycler.adapter = Myadapter()
-
+var a=0
 
     }
 
