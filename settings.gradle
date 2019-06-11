@@ -1,0 +1,1 @@
+include ':app', ':myapplication', ':imei', ':shorttext', ':dahh', ':ex', ':twelveanimals'

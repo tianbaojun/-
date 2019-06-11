@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="50dp"
+    android:minWidth="40dp"
+    android:elevation="2dp"
+    android:gravity="center"
+    android:text="1"
+    android:id="@+id/tv_name"
+    android:textColor="@color/white"/>
