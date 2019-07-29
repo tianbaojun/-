@@ -5,7 +5,6 @@ android {
     compileSdkVersion 28
 
 
-
     defaultConfig {
         applicationId "com.tabjin.myapplication"
         minSdkVersion 23

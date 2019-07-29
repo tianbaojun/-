@@ -1,1 +1,2 @@
-include ':app', ':myapplication', ':imei', ':shorttext', ':dahh', ':ex', ':twelveanimals'
+include ':app', ':myapplication', ':imei', ':shorttext', ':dahh', ':ex', ':twelveanimals', ':pullrefresh', ':dialogdemo', ':refresh-layout', ':MyApplication'
+include ':pullToRefreshAndLoad'

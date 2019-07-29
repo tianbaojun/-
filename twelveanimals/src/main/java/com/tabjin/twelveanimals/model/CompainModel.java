@@ -8,9 +8,11 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
+import java.util.Objects;
 
 public class CompainModel {
     public static void main(String[] args) {
@@ -127,7 +129,7 @@ public class CompainModel {
         }
         for (int i = startIndex;i<list.size()-num+index+1;i++) {
             if(index == num-1){
-//                result.add(prefix+list.get(i));
+                result.add(prefix+list.get(i));
                 System.out.println(prefix+list.get(i));
             }else{
                 fullPermutation(list,index+1,i+1,num,result,prefix+list.get(i)+SEP);
@@ -347,6 +349,28 @@ public class CompainModel {
                     iterator.remove();
                 }
             }
+        }
+    }
+
+    /**
+     * 数字替换生肖
+     * @param list
+     */
+    public void repleaceAnimalWithNumber(ArrayList<String> list){
+        if(list != null && list.size()>0)
+        {
+            ArrayList<String> number = new ArrayList<>();
+            Iterator<String> iterator = list.iterator();
+            while (iterator.hasNext()){
+                String next = iterator.next();
+                if(Constant.Companion.getAnimalMap().containsKey(next)){
+                    if(Constant.Companion.getAnimalMap().get(next)!=null) {
+                        number.addAll(Constant.Companion.getAnimalMap().get(next));
+                    }
+                    iterator.remove();
+                }
+            }
+            list.addAll(number);
         }
     }
 }

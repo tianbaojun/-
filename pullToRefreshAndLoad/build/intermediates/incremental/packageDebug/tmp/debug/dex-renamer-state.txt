@@ -1,0 +1,4 @@
+#Fri Jul 05 11:40:45 CST 2019
+base.0=E\:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,6 +1,7 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
+apply plugin: 'org.quanqi.pgyer'
 android {
     compileSdkVersion 28
 
@@ -16,10 +17,28 @@ android {
 
     }
 
-    buildTypes {
+
+
+    signingConfigs {
+        debug {
+            storeFile file('../tabjin.jks')
+            storePassword "tabjin123"
+            keyAlias "tabjin"
+            keyPassword "tabjin123"
+        }
         release {
+            storeFile file('../tabjin.jks')
+            storePassword "tabjin123"
+            keyAlias "tabjin"
+            keyPassword "tabjin123"
+        }
+    }
+
+    buildTypes {
+        MyRelease {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
         }
     }
 
@@ -32,4 +51,41 @@ dependencies {
     implementation "com.android.support:recyclerview-v7:28.0.0"
     implementation 'com.google.code.gson:gson:2.8.5'
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+}
+
+
+task pack {
+    dependsOn project.hasProperty("type") ? ("assemble" + type) : "assemble"
+    doLast {
+//        def outputFile = new File("e://apk/dahh/"+versionName+"/")
+        android.applicationVariants.all { variant ->
+            variant.outputs.all { output ->
+                def exist = output.outputFile.exists()
+                if (project.hasProperty("type")) {
+                    println("type============================" + type)
+                }
+                println("buildType.name=" + variant.buildType.name)
+                println("productFlavors.name=" + variant.productFlavors.name)
+                if (exist && outputFile.getName().endsWith(".apk") && project.hasProperty("type") && type == variant.buildType.name) {
+                    uploadPgyer
+                    println("=============================打包成功了==============================")
+                    println(outputFile.getPath())
+
+                }
+            }
+        }
+
+
+    }
+}
+
+pgyer {
+    _api_key = "a214b4f81fbdc59c34f39f411a0b8d50"
+    uKey = "5a861b7bc36df61494231628c1edcf3c"
+}
+
+apks {
+    release {
+        sourceFile = file("D:\\workspace\\android_project\\MVVM\\twelveanimals\\build\\outputs\\apk\\MyRelease\\twelveanimals-MyRelease.apk")
+    }
 }

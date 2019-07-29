@@ -10,9 +10,13 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/dahh" />
+            <option value="$PROJECT_DIR$/dialogdemo" />
             <option value="$PROJECT_DIR$/ex" />
             <option value="$PROJECT_DIR$/imei" />
             <option value="$PROJECT_DIR$/myapplication" />
+            <option value="$PROJECT_DIR$/pullToRefreshAndLoad" />
+            <option value="$PROJECT_DIR$/pullrefresh" />
+            <option value="$PROJECT_DIR$/refresh-layout" />
             <option value="$PROJECT_DIR$/shorttext" />
             <option value="$PROJECT_DIR$/twelveanimals" />
           </set>

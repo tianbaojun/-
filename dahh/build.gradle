@@ -1,6 +1,9 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android-extensions'
-apply plugin: 'kotlin-android'
+//import okhttp3.OkHttpClient
+//apply from: "${rootProject.rootDir}/dandelionUpload.gradle"
+
+apply plugin: 'org.quanqi.pgyer'
 
 android {
     compileSdkVersion 28
@@ -19,9 +22,25 @@ android {
     }
 
     buildTypes {
-        release {
+        OpenDebug{
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        Myrelease{
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    flavorDimensions "release"
+    productFlavors {
+        Splash {
+            dimension = "release"
+            buildConfigField("Boolean", "useBugly", "false")
+        }
+        Choose {
+            dimension = "release"
+            buildConfigField("Boolean", "useBugly", "true")
         }
     }
 
@@ -42,3 +61,38 @@ dependencies {
 repositories {
     mavenCentral()
 }
+task pack {
+    dependsOn project.hasProperty("type") ? ("assemble" + type) : "assemble"
+    doLast {
+//        def outputFile = new File("e://apk/dahh/"+versionName+"/")
+        android.applicationVariants.all { variant ->
+            variant.outputs.all { output ->
+                def exist = output.outputFile.exists()
+                if (project.hasProperty("type")) {
+                    println("type============================" + type)
+                }
+                println("buildType.name=" + variant.buildType.name)
+                println("productFlavors.name=" + variant.productFlavors.name)
+                if (exist && outputFile.getName().endsWith(".apk") && project.hasProperty("type") && type == variant.productFlavors.name+variant.buildType.name) {
+                    uploadPgyer
+                    println("=============================打包成功了==============================")
+                    println(outputFile.getPath())
+
+                }
+            }
+        }
+
+
+    }
+}
+
+    pgyer {
+        _api_key = "a214b4f81fbdc59c34f39f411a0b8d50"
+        uKey = "5a861b7bc36df61494231628c1edcf3c"
+    }
+
+    apks {
+        release {
+            sourceFile = file("E:\\android_project\\MVVM\\dahh\\build\\outputs\\apk\\splash\\OpenDebug\\1.apk")
+        }
+    }

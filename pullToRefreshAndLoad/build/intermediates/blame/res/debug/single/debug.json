@@ -1,0 +1,282 @@
+[
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\drawable-v21_notification_action_background.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6f6e43b515648863da8ab892d7791298\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_media.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\9dfdb59444c0e10c8b18fe4f4b53f8c1\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\layout_activity_expandablelistview.xml.flat",
+        "source": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\src\\main\\res\\layout\\activity_expandablelistview.xml"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_time.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6f6e43b515648863da8ab892d7791298\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_load_succeed.png.flat",
+        "source": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\src\\main\\res\\drawable-xhdpi\\load_succeed.png"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_refresh_failed.png.flat",
+        "source": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\src\\main\\res\\drawable-xhdpi\\refresh_failed.png"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\drawable_notification_tile_bg.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6f6e43b515648863da8ab892d7791298\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\layout_notification_media_action.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\9dfdb59444c0e10c8b18fe4f4b53f8c1\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6f6e43b515648863da8ab892d7791298\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\layout_activity_gridview.xml.flat",
+        "source": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\src\\main\\res\\layout\\activity_gridview.xml"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6f6e43b515648863da8ab892d7791298\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6f6e43b515648863da8ab892d7791298\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6f6e43b515648863da8ab892d7791298\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6f6e43b515648863da8ab892d7791298\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\layout_activity_listview.xml.flat",
+        "source": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\src\\main\\res\\layout\\activity_listview.xml"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\layout_list_item_layout.xml.flat",
+        "source": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\src\\main\\res\\layout\\list_item_layout.xml"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_load_failed.png.flat",
+        "source": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\src\\main\\res\\drawable-xhdpi\\load_failed.png"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg_low.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6f6e43b515648863da8ab892d7791298\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\layout-v16_notification_template_custom_big.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6f6e43b515648863da8ab892d7791298\\res\\layout-v16\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6f6e43b515648863da8ab892d7791298\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action_tombstone.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6f6e43b515648863da8ab892d7791298\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_k.jpg.flat",
+        "source": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\src\\main\\res\\drawable-xhdpi\\k.jpg"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\anim_rotating.xml.flat",
+        "source": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\src\\main\\res\\anim\\rotating.xml"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6f6e43b515648863da8ab892d7791298\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\9dfdb59444c0e10c8b18fe4f4b53f8c1\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_lines_media.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\9dfdb59444c0e10c8b18fe4f4b53f8c1\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_narrow_custom.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\9dfdb59444c0e10c8b18fe4f4b53f8c1\\res\\layout\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_h.jpg.flat",
+        "source": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\src\\main\\res\\drawable-xhdpi\\h.jpg"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\layout_notification_action_tombstone.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6f6e43b515648863da8ab892d7791298\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_refreshing.png.flat",
+        "source": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\src\\main\\res\\drawable-xhdpi\\refreshing.png"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\layout_activity_scrollview.xml.flat",
+        "source": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\src\\main\\res\\layout\\activity_scrollview.xml"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_refresh_succeed.png.flat",
+        "source": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\src\\main\\res\\drawable-xhdpi\\refresh_succeed.png"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6f6e43b515648863da8ab892d7791298\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6f6e43b515648863da8ab892d7791298\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_custom_big.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6f6e43b515648863da8ab892d7791298\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\drawable_notification_icon_background.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6f6e43b515648863da8ab892d7791298\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6f6e43b515648863da8ab892d7791298\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_l.jpg.flat",
+        "source": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\src\\main\\res\\drawable-xhdpi\\l.jpg"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_loading.png.flat",
+        "source": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\src\\main\\res\\drawable-xhdpi\\loading.png"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_custom.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\9dfdb59444c0e10c8b18fe4f4b53f8c1\\res\\layout\\notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\layout_notification_media_cancel_action.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\9dfdb59444c0e10c8b18fe4f4b53f8c1\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6f6e43b515648863da8ab892d7791298\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_i.jpg.flat",
+        "source": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\src\\main\\res\\drawable-xhdpi\\i.jpg"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\layout_activity_textview.xml.flat",
+        "source": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\src\\main\\res\\layout\\activity_textview.xml"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_pullup_icon_big.png.flat",
+        "source": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\src\\main\\res\\drawable-xhdpi\\pullup_icon_big.png"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\layout_activity_webview.xml.flat",
+        "source": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\src\\main\\res\\layout\\activity_webview.xml"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_icon_group.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6f6e43b515648863da8ab892d7791298\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6f6e43b515648863da8ab892d7791298\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6f6e43b515648863da8ab892d7791298\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_m.jpg.flat",
+        "source": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\src\\main\\res\\drawable-xhdpi\\m.jpg"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_chronometer.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6f6e43b515648863da8ab892d7791298\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6f6e43b515648863da8ab892d7791298\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\layout_notification_action.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6f6e43b515648863da8ab892d7791298\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6f6e43b515648863da8ab892d7791298\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\layout_load_more.xml.flat",
+        "source": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\src\\main\\res\\layout\\load_more.xml"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_narrow.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\9dfdb59444c0e10c8b18fe4f4b53f8c1\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_pull_icon_big.png.flat",
+        "source": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\src\\main\\res\\drawable-xhdpi\\pull_icon_big.png"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\layout_refresh_head.xml.flat",
+        "source": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\src\\main\\res\\layout\\refresh_head.xml"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_j.jpg.flat",
+        "source": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\src\\main\\res\\drawable-xhdpi\\j.jpg"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_media_custom.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\9dfdb59444c0e10c8b18fe4f4b53f8c1\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_icon_group.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6f6e43b515648863da8ab892d7791298\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6f6e43b515648863da8ab892d7791298\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\layout_activity_imageview.xml.flat",
+        "source": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\src\\main\\res\\layout\\activity_imageview.xml"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\anim_reverse_anim.xml.flat",
+        "source": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\src\\main\\res\\anim\\reverse_anim.xml"
+    },
+    {
+        "merged": "E:\\android_project\\MVVM\\pullToRefreshAndLoad\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6f6e43b515648863da8ab892d7791298\\res\\layout-v21\\notification_action.xml"
+    }
+]

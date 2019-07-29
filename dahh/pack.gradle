@@ -1,0 +1,21 @@
+
+task pack{
+    dependsOn project.hasProperty("type")?("assemble"+type):"assemble"
+    doLast{
+//        def outputFile = new File("e://apk/dahh/"+versionName+"/")
+        android.applicationVariants.all{variant->
+            variant.outputs.all { output ->
+                def exist = output.outputFile.exists()
+                if(project.hasProperty("type")){
+                    println("type============================"+type)
+                }
+                println("buildType.name="+variant.buildType.name)
+                println("productFlavors.name="+variant.productFlavors.name)
+                if (exist && outputFile.getName().endsWith(".apk")&&project.hasProperty("type")&& type == variant.buildType.name) {
+                    println("=============================打包成功了==============================")
+                    println(outputFile.getPath())
+                }
+            }
+        }
+    }
+}

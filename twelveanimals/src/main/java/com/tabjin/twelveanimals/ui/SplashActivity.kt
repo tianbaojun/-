@@ -22,6 +22,10 @@ class SplashActivity : AppCompatActivity() , View.OnClickListener{
                 val intent = Intent(this@SplashActivity, MainActivity3::class.java)
                 startActivity(intent)
             }
+            R.id.btn_shengxiaodan ->{
+                val intent = Intent(this@SplashActivity, MainActivity4::class.java)
+                startActivity(intent)
+            }
         }
     }
 
@@ -31,5 +35,6 @@ class SplashActivity : AppCompatActivity() , View.OnClickListener{
         btn_animal.setOnClickListener(this)
         btn_diy.setOnClickListener(this)
         btn_sicai.setOnClickListener(this)
+        btn_shengxiaodan.setOnClickListener(this)
     }
 }

@@ -31,5 +31,12 @@
         android:text="欢乐四彩"
         android:background="@drawable/bg"
         android:layout_marginTop="20dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/btn_shengxiaodan"
+        android:text="生肖胆码"
+        android:background="@drawable/bg"
+        android:layout_marginTop="20dp"/>
 
 </LinearLayout>
