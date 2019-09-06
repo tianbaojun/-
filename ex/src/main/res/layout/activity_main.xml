@@ -21,6 +21,15 @@
         android:layout_marginTop="100dp"
         android:layout_alignParentBottom="true"/>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:maxLines="1"
+        android:layout_centerInParent="true"
+        android:textSize="18sp"
+        android:ellipsize="end"
+        android:text="a坚实的覅好的萨菲哈多 水电费dfadsdsf wo sjdkfsd sdfdsaf  "/>
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

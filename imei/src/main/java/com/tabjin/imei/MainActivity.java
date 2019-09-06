@@ -3,6 +3,7 @@ package com.tabjin.imei;
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
 import android.graphics.Paint;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AlertDialog;
@@ -15,6 +16,8 @@ import android.widget.TextView;
 
 import com.tabjin.Dialog.TipDialogBuilder;
 import com.tabjin.autoSplit.AutoSplitTextView;
+import com.tabjin.autoSplit.BreakTextView;
+import com.tabjin.autoSplit.MyView;
 import com.tabjin.permission.CallbackWrapper;
 import com.tabjin.permission.PermissionUtil;
 
@@ -24,36 +27,51 @@ import static android.Manifest.permission.*;
 
 public class MainActivity extends AppCompatActivity implements CallbackWrapper.PermissionsCallback, View.OnClickListener {
 
-    AutoSplitTextView tv;
+    MyView tv;
+
+    private BreakTextView tv_break;
+
+    private String content;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        tv= findViewById(R.id.tv);
+        tv= findViewById(R.id.tv_my);
+
+        tv_break = findViewById(R.id.tv_break);
+
         findViewById(R.id.button).setOnClickListener(this);
         /*if(PermissionUtil.chechPermission(this,READ_PHONE_STATE)){
             tv.setText(getIMEI());
         }else{
             PermissionUtil.requestPermissions(this,new String[]{READ_PHONE_STATE},this);
         }*/
-        String content = "just youtsdfsdf like dfefe  sjdfeijfew wefwefwe wefwefwef wefwefwefewf";
+        content = "just youtsdfsdf like dfefe  sjdfeijfew wefwefwe wefwefwef wefwefwefewf sjdfeijfew wefwefwe wefwefwef wefwefwefewf sjdfeijfew wefwefwe wefwefwef wefwefwefewf sjdfeijfew wefwefwe wefwefwef wefwefwefewf";
         tv.setText(content);
+        tv.setTextColor(Color.parseColor("#ff890000"));
+        tv.setBackground(Color.parseColor("#ff010101"));
+        tv.setBold(true);
+        tv.setTextSize(20);
+        tv.setMaxLines(2);
 //        tv.measure();
 
 
 
     }
-/*
     @Override
     protected void onResume() {
         super.onResume();
-        String content = "我的世界我的世界我的世界我的世界我的世界我的世界我的世界just youtsdfsdf like dfefe  sjdfeijfew wefwefwe wefwefwef wefwefwefewf";
+       /* String content = "我的世界我的世界我的世界我的世界我的世界我的世界我的世界just youtsdfsdf like dfefe  sjdfeijfew wefwefwe wefwefwef wefwefwefewf";
         tv.setText(content);
         Log.e("main","content");
         String str = autoSplitText(tv,content);
         Log.e("main",str);
-        tv.setText(str);
-    }*/
+        tv.setText(str);*/
+
+        tv_break.setAutoSplit(true);
+//        tv_break.setSplitText(tv_break,content);
+        tv_break.requestLayout();
+    }
 
     public String getUUID(){
         return UUID.randomUUID().toString();
